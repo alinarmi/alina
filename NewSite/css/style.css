@@ -1,0 +1,463 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, time {
+    display: block;
+}
+header, footer, article, section, hgroup, nav, figure, figcaption, aside {
+    display: block;
+}
+html, body {
+    font-size: 100%;
+    height: 100%;
+    width: 100%;
+}
+body {
+    background: #d7d7d8;
+    color: #454545;
+    font: 20px sans-serif;
+    margin: 0;
+    min-width: 768px;
+}
+#wrapper {
+    background: #fff;
+    margin: 0 auto;
+    max-width: 1485px;
+    position: relative;
+}
+#header {
+    background: #071739;
+    position: relative;
+    width: 100%;
+}
+.top-bar {
+    display: inline;
+    height: 1%;
+    min-height: 16px;
+    padding: 12px 30px 11px 22px;
+    position: relative;
+}
+#nav {
+    float: left;
+    font: 20px sans-serif;
+    padding: 0 16px 0 0;
+}
+#nav ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+#nav li {
+    float: left;
+	list-style-type:none;
+}
+#nav ul li {
+    float: left;
+    padding: 0 8px;
+}
+#nav ul li a {
+    color: #bec4cf;
+    text-decoration: none;
+}
+.top-bar .region {
+    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll 100% -129px;
+    color: #fff;
+    float: left;
+    font: bold 20px sans-serif;
+    margin: 0 15px 0 0;
+    padding: 0 15px 0 0;
+    text-decoration: none;
+}
+.top-bar .user-options {
+    float: right;
+    font-family: sans-serif;
+    font-size: 20px;
+    list-style: outside none none;
+    margin: -2px -11px 0;
+    padding: 0;
+    position: relative;
+}
+.top-bar .user-options > li {
+    float: left;
+    padding: 0 10px;
+}
+.top-bar .user-options li > a {
+    color: #fff;
+    float: left;
+    min-width: 50px;
+    text-decoration: none;
+}
+.top-bar .user-options li.user a i.ico {
+    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll -127px 0;
+    height: 17px;
+    margin: 5px;
+    text-indent: -999px;
+    width: 14px;
+}
+.top-bar .user-options li a i.ico {
+    display: block;
+    float: left;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.top-bar .user-options li > a .small-name {
+    display: none;
+}
+.top-bar .user-options li.cart {
+    margin: -12px -19px -11px 0;
+    padding: 0;
+    position: relative;
+}
+.top-bar .user-options li.empty-small-cart > div {
+    color: #fff;
+    float: left;
+    min-width: 50px;
+    padding: 12px 28px 11px 10px;
+    position: relative;
+    text-decoration: none;
+    z-index: 4;
+}
+.top-bar .user-options li.empty-small-cart i.ico {
+    background: transparent url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll -101px 0;
+    display: inline-block;
+    float: left;
+    height: 17px;
+    margin: 5px 0 0;
+    overflow: hidden;
+    text-indent: -999px;
+    vertical-align: middle;
+    width: 19px;
+}
+.top-bar #ottBasketSmallWrap .m-sm-cart {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    display: inline-block;
+    padding: 0 5px;
+}
+.top-bar .user-options li.empty-small-cart span {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    display: block;
+    float: left;
+    padding: 0 14px 0 0;
+}
+.top-bar .user-options li.empty-small-cart span {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    display: block;
+    float: left;
+    padding: 0 14px 0 0;
+}
+.header-info {
+    box-shadow: 0 0 42px rgba(0, 0, 0, 0.8) inset;
+    overflow: hidden;
+    padding: 29px 290px 20px 324px;
+    z-index: 1;
+}
+.logo {
+    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll 0 -110px;
+    float: left;
+    height: 41px;
+    margin: 0 0 0 -294px;
+    overflow: hidden;
+    position: relative;
+    text-indent: -9999px;
+    width: 237px;
+}
+.mini-m-h {
+    display: none;
+}
+#header .search-form {
+    background: #3b4b69 none repeat scroll 0 0;
+    float: left;
+    height: 34px;
+    position: relative;
+    width: 100%;
+}
+#search, .search-form, .autocompleteSearch, .autocompleteSearchCity, .autocompleteMapCity, .tp-map-city-list {
+    border-radius: 1px;
+    box-shadow: 0 0 4px #3b4b69;
+}
+form, fieldset {
+    border: 0 none !important;
+    margin: 0;
+    padding: 0;
+}
+
+
+#header .search-form fieldset {
+    position: relative;
+}
+#header .search-form fieldset {
+    overflow: hidden;
+    padding: 0 44px 0 0;
+}
+
+
+
+
+
+#header .search-form input[type="text"] {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    height: 17px;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding: 10px 5% 7px 1.1%;
+    text-transform: uppercase;
+    width: 98%;
+}
+#search, .search-form, .autocompleteSearch, .autocompleteSearchCity, .autocompleteMapCity, .tp-map-city-list {
+    border-radius: 1px;
+    box-shadow: 0 0 4px #3b4b69;
+}
+#search {
+    border: medium none;
+    outline: medium none;
+    padding-left: 11px !important;
+    padding-right: 10px !important;
+}
+input[type="text"], input[type="password"], input[type="file"], input[type="submit"], textarea {
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+input {
+    border: medium none;
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+input, textarea {
+    outline: medium none;
+}
+input, textarea, select {
+    color: #c3c3c3;
+    font: 12px/14px "PF Square Sans Probold",Arial,Helvetica,sans-serif;
+    vertical-align: middle;
+}
+input::-moz-placeholder {
+    color: #626262;
+}
+
+
+
+
+
+
+#header .search-form input[type="submit"] {
+    margin: 9px -25px 0 0;
+}
+#header .search-form input[type="submit"] {
+    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll 0 -4px;
+    border: medium none;
+    cursor: pointer;
+    float: right;
+    height: 17px;
+    line-height: 0;
+    margin: 9px -35px 0 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    text-indent: -9999px;
+    width: 17px;
+}
+input[type="text"], input[type="password"], input[type="file"], input[type="submit"], textarea {
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+input {
+    border: medium none;
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+input, textarea {
+    outline: medium none;
+}
+input, textarea, select {
+    color: #c3c3c3;
+    font: 12px/14px "PF Square Sans Probold",Arial,Helvetica,sans-serif;
+    vertical-align: middle;
+}
+input::-moz-placeholder {
+    color: #626262;
+}
+
+
+
+
+
+element.style {
+    display: none;
+}
+#header .search-form .btn-delete {
+    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll -80px -455px;
+    height: 14px;
+    overflow: hidden;
+    position: absolute;
+    right: 54px;
+    text-indent: -9999px;
+    top: 10px;
+    visibility: hidden;
+    width: 14px;
+}
+.search-form .btn-delete {
+    right: 47px !important;
+    top: 11px !important;
+    z-index: 111;
+}
+.btnSearchClose {
+    display: none;
+    visibility: visible !important;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+#header .contacts {
+    float: right;
+    margin: -1px -262px 0 58px;
+    position: relative;
+    width: 204px;
+}
+
+
+
+
+
+
+
+
+
+#header .contacts .phone {
+    color: #008ac4;
+    cursor: default;
+    display: block;
+    font: 24px/24px "PF Square Sans Probold",Arial,Helvetica,sans-serif;
+    margin: 0 0 2px;
+    pointer-events: none;
+    text-decoration: none;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+
+
+
+
+#header .contacts .phone span {
+    color: #fff;
+    font-family: "PF Square Sans Proregular",Arial,Helvetica,sans-serif;
+}
+
+
+
+
+
+
+element.style {
+    font-size: 12px;
+}
+#header .contacts .note {
+    color: #fff;
+    font: 10px "PF Square Sans Proregular",Arial,Helvetica,sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+.order-management {
+    background: #071739 none repeat scroll 0 0;
+    display: none;
+    padding: 16px 13px 71px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, time {
+    display: block;
+}
+header, footer, article, section, hgroup, nav, figure, figcaption, aside {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+.order-management ul {
+    font: 12px "PF Square Sans Probold",Arial,Helvetica,sans-serif;
+    list-style: outside none none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 225px;
+}
+ul, menu {
+    list-style-type: none;
+}
+
+
+
+
+
+
+.order-management ul li {
+    float: left;
+    padding: 0 14px 0 15px;
+}
+
+
+
+
+
+
+.order-management ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+.order-management ul li a span {
+    color: #008ac4;
+}
+
+
+
+
+
+
+
+
+
