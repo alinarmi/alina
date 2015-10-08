@@ -3,8 +3,14 @@
 
 <head>
 	<meta charset="UTF-8">
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/close-tab.js"></script>	
+	<script src="js/script-slider.js"></script>	
+	
 	<link href="css/style.css" rel="stylesheet" type="text/css" /> 
-	<link href="icon.ico" rel="shortcut icon" type="image/x-icon">    
+	<link href="icon.ico" rel="shortcut icon" type="image/x-icon"> 
+	
 	<title>Интернет-магазин цифровой и бытовой техники</title>
 </head>
 
@@ -52,9 +58,7 @@
 				</div>
 			</li>
 			
-<script type="text/javaScript">
- $(function(){ Init.JSData("eyJTRUNUSU9OX0lEIjowLCJQUk9EVUNUX0lEIjowLCJUUF9QSE9ORSI6WyI0OTUiLCI3NTUiLCI4OCIsIjg4Il0sIklTX09SREVSX1BBR0UiOm51bGx9"); }) 
-</script>
+
 
 		</ul>
 		
@@ -118,22 +122,19 @@
  
  
  <div id="content">
+ 
+ <div id="main-menu">
+ </div>
+ 
+ 
 	<div id="contentContainer">
-<div id="wr">
-    <div id="itemOne" class="content">
-
-    </div>
-    <div id="itemTwo" class="content">
-
-    </div>
-    <div id="itemThree" class="content">
-
-    </div>
-    <div id="itemFour" class="content">
-
-    </div>
-</div>
-</div>
+		<div id="wr">
+			<div id="itemOne" class="content"></div>
+			<div id="itemTwo" class="content"></div>
+			<div id="itemThree" class="content"></div>
+			<div id="itemFour" class="content"></div>
+		</div>
+	</div>
 
 
 <div id="navLinks">
@@ -145,7 +146,6 @@
     </ul>
 </div>
 <!--                   ----------------------------------------------------------                         -->
-
 <script>
 // запрашиваем DOM
 var links = document.querySelectorAll(".itemLinks");
@@ -191,7 +191,15 @@ function changePosition(link) {
 }
 </script>
 
+<div id="block"> 
+</div>
+
  </div>
+ 
+ 
+ 
+ 
+ 
  
 	<footer id="footer">
 	

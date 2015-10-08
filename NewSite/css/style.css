@@ -23,7 +23,7 @@ body {
     position: relative;
 }
 #header {
-    background: #029ab1;
+    background: #014d58;
     position: relative;
     width: 100%;
 }
@@ -37,7 +37,7 @@ body {
 #nav {
     float: left;
     font: 20px sans-serif;
-    padding: 0 16px 0 0;
+    padding: 3px 16px 0 43px;
 }
 #nav ul {
     list-style: outside none none;
@@ -57,12 +57,12 @@ body {
     text-decoration: none;
 }
 .top-bar .region {
-    background: rgba(0, 0, 0, 0) url("file:///D:/Alina_Nesterenko/GitHubRepository/alina/NewSite/images/sprite.png") no-repeat scroll 100% -129px;
+    background: rgba(0, 0, 0, 0) url("../images/sprite.png") no-repeat scroll 100% -129px;
     color: #fff;
     float: left;
     font: bold 20px sans-serif;
     margin: 0 15px 0 0;
-    padding: 0 15px 0 0;
+    padding: 3px 15px 0 0;
     text-decoration: none;
 }
 .top-bar .user-options {
@@ -71,7 +71,7 @@ body {
     font-size: 20px;
     list-style: outside none none;
     margin: -2px -11px 0;
-    padding: 0;
+        padding: 5px 15px 0px 0;
     position: relative;
 }
 .top-bar .user-options > li {
@@ -85,7 +85,7 @@ body {
     text-decoration: none;
 }
 .top-bar .user-options li.user a i.ico {
-    background: rgba(0, 0, 0, 0) url("file:///D:/Alina_Nesterenko/GitHubRepository/alina/NewSite/images/sprite.png") no-repeat scroll -127px 0;
+    background: rgba(0, 0, 0, 0) url("../images/sprite.png") no-repeat scroll -127px 0;
     height: 17px;
     margin: 5px;
     text-indent: -999px;
@@ -115,7 +115,7 @@ body {
     z-index: 4;
 }
 .top-bar .user-options li.empty-small-cart i.ico {
-    background: transparent url("file:///D:/Alina_Nesterenko/GitHubRepository/alina/NewSite/images/sprite.png") no-repeat scroll -101px 0;
+    background: transparent url("../images/sprite.png") no-repeat scroll -101px 0;
     display: inline-block;
     float: left;
     height: 17px;
@@ -143,17 +143,19 @@ body {
     padding: 0 14px 0 0;
 }
 .header-info {
-    box-shadow: 0 0 42px rgba(0, 0, 0, 0.8) inset;
+	background:#029ab1;
+    box-shadow: 0 0 180px rgba(0, 0, 0, 0.8) inset;
     overflow: hidden;
     padding: 29px 290px 20px 324px;
     z-index: 1;
 	width: 58.6%;
+	margin-top: 10px;
 }
 .logo {
-    background: url("file:///D:/Alina_Nesterenko/GitHubRepository/alina/NewSite/images/logo-small3.png") no-repeat;
+    background: url("../images/logo-title.png") no-repeat;	
     float: left;
     height: 122px;
-    margin-left: -297px;
+    margin-left: -277px;
     overflow: hidden;
     position: relative;
     text-indent: -9999px;
@@ -163,13 +165,23 @@ body {
     display: none;
 }
 #header .search-form {
+	opacity:1;
     background: #4db8c8 none repeat scroll 0 0;
     float: left;
     height: 34px;
     position: relative;
-    width: 100%;
-	border: 2px solid #fff;
+    width: 93%;
+	margin-top:30px;
 }
+#header .search-form:hover {
+	opacity:0.8;
+	 -webkit-transform: scale(1.02);
+        -moz-transform: scale(1.02);
+		  -o-transform: scale(1.02);
+		 -ms-transform: scale(1.02);
+             transform: scale(1.02);
+}
+
 #search, .search-form, .autocompleteSearch, .autocompleteSearchCity, .autocompleteMapCity, .tp-map-city-list {
     border-radius: 1px;
     box-shadow: 0 0 4px #3b4b69;
@@ -189,10 +201,6 @@ form, fieldset {
     padding: 0 44px 0 0;
 }
 
-
-
-
-
 #header .search-form input[type="text"] {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: medium none;
@@ -205,10 +213,6 @@ form, fieldset {
     padding: 10px 5% 7px 1.1%;
     text-transform: uppercase;
     width: 98%;
-}
-#search, .search-form, .autocompleteSearch, .autocompleteSearchCity, .autocompleteMapCity, .tp-map-city-list {
-    border-radius: 1px;
-    box-shadow: 0 0 4px #3b4b69;
 }
 #search {
     border: medium none;
@@ -247,7 +251,7 @@ input::-moz-placeholder {
     margin: 9px -25px 0 0;
 }
 #header .search-form input[type="submit"] {
-    background: rgba(0, 0, 0, 0) url("file:///D:/Alina_Nesterenko/GitHubRepository/alina/NewSite/images/sprite.png") no-repeat scroll 0 -4px;
+    background: rgba(0, 0, 0, 0) url("../images/sprite.png") no-repeat scroll 0 -4px;
     border: medium none;
     cursor: pointer;
     float: right;
@@ -290,7 +294,7 @@ element.style {
     display: none;
 }
 #header .search-form .btn-delete {
-    background: rgba(0, 0, 0, 0) url("file:///D:/Alina_Nesterenko/GitHubRepository/alina/NewSite/images/sprite.png") no-repeat scroll -80px -455px;
+    background: rgba(0, 0, 0, 0) url("../images/sprite.png") no-repeat scroll -80px -455px;
     height: 14px;
     overflow: hidden;
     position: absolute;
@@ -328,7 +332,7 @@ a {
 
 #header .contacts {
     float: right;
-    margin: 0px -262px 0 58px;
+    margin: 21px -262px 0 58px;
     position: relative;
 }
 
@@ -483,7 +487,9 @@ a {
 
 
 #footer{
-	box-shadow: 257px 0 98px 31px rgba(0, 0, 0, 0.58) inset;
+	background: #029ab1;
+    box-shadow: 257px 0 98px 31px rgba(0, 0, 0, 0.58) inset;
+	#001e23
 	background: #029ab1;
     width: 100%;
     height: 160px;
@@ -658,10 +664,10 @@ a {
     text-decoration: underline;
 }
 #footer-share a.vk_share {
-    background-position: -34px 215px;
+    background-position: -50px 160px;
 }
 #footer-share a {
-    background: rgba(0, 0, 0, 0) url("file:///D:/Alina_Nesterenko/GitHubRepository/alina/NewSite/images/sprite.png") repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("../images/sprite.png") repeat scroll 0 0;
     display: inline-block;
     height: 28px;
     padding: 0 5px 0 0;
@@ -705,18 +711,21 @@ a {
 
 
 
-
-
-#contentContainer {
+#contentContainer {	
     width: 1486px;
     height: 310px;
     overflow: hidden;
 }
+
 #wr {
+	opacity:0.93;
     width: 5944px;
     position: relative;
     left: 0px;
 	transition: left .9s ease-in-out;
+}
+#wr:hover {
+	opacity:1;
 }
 .content {
     float: left;
@@ -742,6 +751,10 @@ a {
 #navLinks {
     text-align: center;
     width: 1486px;
+	opacity:0.6;
+}
+#navLinks:hover {
+opacity:1;
 }
     #navLinks ul {
         margin: 0px;
@@ -760,7 +773,7 @@ a {
             border-radius: 50%;
         }
             #navLinks ul li:hover {
-                background-color: #FFFF00;
+                background-color: #FFFF00;				
             }
             #navLinks ul li.active {
                 background-color: #333333;
@@ -771,3 +784,18 @@ a {
                     background-color: #484848;
                     color: #FFFFFF;
                 }
+				
+				
+				
+	
+				
+				
+				
+				
+
+#block{
+	background: #029ab1;
+	height: 40px;
+	margin-top:-41px;
+	margin-top:-41px;
+}
