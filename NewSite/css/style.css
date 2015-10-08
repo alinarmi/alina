@@ -10,8 +10,8 @@ html, body {
     width: 100%;
 }
 body {
-    background: #d7d7d8;
-    color: #454545;
+    background: #eaeef1;
+    color: #fff;
     font: 20px sans-serif;
     margin: 0;
     min-width: 768px;
@@ -23,7 +23,7 @@ body {
     position: relative;
 }
 #header {
-    background: #071739;
+    background: #029ab1;
     position: relative;
     width: 100%;
 }
@@ -52,8 +52,8 @@ body {
     float: left;
     padding: 0 8px;
 }
-#nav ul li a {
-    color: #bec4cf;
+#nav ul li a {	
+    color: #fff;
     text-decoration: none;
 }
 .top-bar .region {
@@ -147,26 +147,28 @@ body {
     overflow: hidden;
     padding: 29px 290px 20px 324px;
     z-index: 1;
+	width: 58.6%;
 }
 .logo {
-    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll 0 -110px;
+    background-image: url("logo.png");
     float: left;
-    height: 41px;
+    height: 80px;
     margin: 0 0 0 -294px;
     overflow: hidden;
     position: relative;
     text-indent: -9999px;
-    width: 237px;
+    width: 250px;
 }
 .mini-m-h {
     display: none;
 }
 #header .search-form {
-    background: #3b4b69 none repeat scroll 0 0;
+    background: #4db8c8 none repeat scroll 0 0;
     float: left;
     height: 34px;
     position: relative;
     width: 100%;
+	border: 2px solid #fff;
 }
 #search, .search-form, .autocompleteSearch, .autocompleteSearchCity, .autocompleteMapCity, .tp-map-city-list {
     border-radius: 1px;
@@ -326,9 +328,8 @@ a {
 
 #header .contacts {
     float: right;
-    margin: -1px -262px 0 58px;
+    margin: -27px -262px 0 58px;
     position: relative;
-    width: 204px;
 }
 
 
@@ -340,7 +341,7 @@ a {
 
 
 #header .contacts .phone {
-    color: #008ac4;
+    color: #fff;
     cursor: default;
     display: block;
     font: 24px/24px "PF Square Sans Probold",Arial,Helvetica,sans-serif;
@@ -458,6 +459,217 @@ a {
 
 
 
+
+#content{
+    width: 100%;
+    height: 800px;
+	border: 1px solid black;
+}
+
+#slider{
+	width: 100%;
+    height: 300px;
+	border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+	box-shadow: 0 0 42px rgba(0, 0, 0, 0.8) inset;
+	background: #029ab1;
+    width: 100%;
+    height: 160px;
+    margin-top: 10px;
+    clear: both;
+	border: 1px solid black;
+}
+
+#footer-phone{
+    width: 270px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#footer-phone h4{
+    font: bold 18px sans-serif;
+    margin: 0;
+}
+#footer-phone h3{
+    font: bold 24px sans-serif;
+    margin: 5px 0;
+}
+#footer-phone p{
+    font: 18px sans-serif;
+    margin: 5px 0;
+}
+.footer-list{
+    width: 200px;
+    float: left;
+    margin-left: 10px;
+}
+.footer-list li{
+    margin-top: 5px;
+}
+.footer-list p{
+    font: bold 18px sans-serif;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.footer-list a{
+    font: 16px sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+.footer-list a:hover{
+    text-decoration: underline;
+}
+
+.footer-box .col-1 {
+    float: right;
+    width: 24%;
+}
+.subscription-form {
+    height: 31px;
+    padding: 8px 0 0;
+    width: 100%;
+}
+form, fieldset {
+    border: 0 none !important;
+    margin: 0;
+    padding: 0;
+}
+.subscription-form fieldset {
+    overflow: hidden;
+    padding: 0 39px 0 0;
+}
+form, fieldset {
+    border: 0 none !important;
+    margin: 0;
+    padding: 0;
+}
+.subscription-form .text {
+    background: #1ba4b8 none repeat scroll 0 0;
+	border: 2px solid #017b8d;
+    float: left;
+    height: 31px;
+    padding: 0 3%;
+    width: 94%;
+}
+.subscription-form input[type="text"] {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #e1e3e6;
+    font: 14px/14px "PF Square Sans Proregular",Arial,Helvetica,sans-serif;
+    margin: 0;
+    padding: 7px 0;
+    width: 100%;
+}
+.subscription-form input[type="submit"] {
+    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll -200px -43px;
+    border: medium none;
+    cursor: pointer;
+    float: right;
+    height: 31px;
+    line-height: 0;
+    margin: 2px -39px 0 0;
+    overflow: hidden;
+    position: relative;
+    text-indent: -9999px;
+    width: 34px;
+}
+input[type="text"], input[type="password"], input[type="file"], input[type="submit"], textarea {
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+input {
+    border: medium none;
+    border-radius: 0 !important;
+    box-shadow: none;
+}
+input, textarea {
+    outline: medium none;
+}
+input, textarea, select {
+    color: #c3c3c3;
+    font: 12px/14px "PF Square Sans Probold",Arial,Helvetica,sans-serif;
+    vertical-align: middle;
+}
+input::-moz-placeholder {
+    color: #626262;
+}
+#footer-share {
+    display: block;
+    margin: 15px 0;
+    position: relative;
+}
+#footer-share a.fb_share {
+    background-position: -31px 279px;
+}
+#footer-share a {
+    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") repeat scroll 0 0;
+    display: inline-block;
+    height: 28px;
+    padding: 0 5px 0 0;
+    vertical-align: top;
+    width: 28px;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+#footer-share a.vk_share {
+    background-position: -34px 215px;
+}
+#footer-share a {
+    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") repeat scroll 0 0;
+    display: inline-block;
+    height: 28px;
+    padding: 0 5px 0 0;
+    vertical-align: top;
+    width: 28px;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+#footer-share a.vk_share {
+    background-position: -71px 215px;
+}
+#footer-share a.plus_share {
+    background-position: -37px 247px;
+}
+
+#footer-share a {
+    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") repeat scroll 0 0;
+    display: inline-block;
+    height: 28px;
+    padding: 0 5px 0 0;
+    vertical-align: top;
+    width: 28px;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
 
 
 
