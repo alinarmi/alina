@@ -3,7 +3,8 @@
 
 <head>
 	<meta charset="UTF-8">
-	<link href="css/style.css" rel="stylesheet" type="text/css" />     
+	<link href="css/style.css" rel="stylesheet" type="text/css" /> 
+	<link href="icon.ico" rel="shortcut icon" type="image/x-icon">    
 	<title>Интернет-магазин цифровой и бытовой техники</title>
 </head>
 
@@ -107,11 +108,89 @@
 	</section>
 	
 	</header>
- <div>
- </div>
+ 
+ 
+ 
+ 
+ <!--                   ----------------------------------------------------------                         -->
+ 
+ 
+ 
+ 
  <div id="content">
-	<div id="slider">
-	</div>
+	<div id="contentContainer">
+<div id="wr">
+    <div id="itemOne" class="content">
+
+    </div>
+    <div id="itemTwo" class="content">
+
+    </div>
+    <div id="itemThree" class="content">
+
+    </div>
+    <div id="itemFour" class="content">
+
+    </div>
+</div>
+</div>
+
+
+<div id="navLinks">
+    <ul>
+        <li class="itemLinks" data-pos="0px"></li>
+        <li class="itemLinks" data-pos="-550px"></li>
+        <li class="itemLinks" data-pos="-1100px"></li>
+        <li class="itemLinks" data-pos="-1650px"></li>
+    </ul>
+</div>
+<!--                   ----------------------------------------------------------                         -->
+
+<script>
+// запрашиваем DOM
+var links = document.querySelectorAll(".itemLinks");
+var wr = document.querySelector("#wr");
+
+// activeLink обеспечивает метку для активного элемента
+var activeLink = 0;
+
+// устанавливаем отслеживание событий
+for (var i = 0; i < links.length; i++) {
+    var link = links[i];
+    link.addEventListener('click', setClickedItem, false);
+
+    // определяем элемент для activeLink
+    link.itemID = i;
+}
+
+// устанавливаем первый элемент в качестве активного
+links[activeLink].classList.add("active");
+
+function setClickedItem(e) {
+    removeActiveLinks();
+
+    var clickedLink = e.target;
+    activeLink = clickedLink.itemID;
+
+    changePosition(clickedLink);
+}
+
+function removeActiveLinks() {
+    for (var i = 0; i < links.length; i++) {
+        links[i].classList.remove("active");
+    }
+}
+
+// Обработчик изменяет позицию слайдера, после того, как мы убедились,
+// что в качестве активной обозначена нужная нам ссылка.
+function changePosition(link) {
+    link.classList.add("active");
+
+    var position = link.getAttribute("data-pos");
+    wr.style.left = position;
+}
+</script>
+
  </div>
  
 	<footer id="footer">

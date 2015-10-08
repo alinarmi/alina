@@ -57,7 +57,7 @@ body {
     text-decoration: none;
 }
 .top-bar .region {
-    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll 100% -129px;
+    background: rgba(0, 0, 0, 0) url("file:///D:/Alina_Nesterenko/GitHubRepository/alina/NewSite/images/sprite.png") no-repeat scroll 100% -129px;
     color: #fff;
     float: left;
     font: bold 20px sans-serif;
@@ -85,7 +85,7 @@ body {
     text-decoration: none;
 }
 .top-bar .user-options li.user a i.ico {
-    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll -127px 0;
+    background: rgba(0, 0, 0, 0) url("file:///D:/Alina_Nesterenko/GitHubRepository/alina/NewSite/images/sprite.png") no-repeat scroll -127px 0;
     height: 17px;
     margin: 5px;
     text-indent: -999px;
@@ -115,7 +115,7 @@ body {
     z-index: 4;
 }
 .top-bar .user-options li.empty-small-cart i.ico {
-    background: transparent url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll -101px 0;
+    background: transparent url("file:///D:/Alina_Nesterenko/GitHubRepository/alina/NewSite/images/sprite.png") no-repeat scroll -101px 0;
     display: inline-block;
     float: left;
     height: 17px;
@@ -150,10 +150,10 @@ body {
 	width: 58.6%;
 }
 .logo {
-    background-image: url("logo.png");
+    background: url("file:///D:/Alina_Nesterenko/GitHubRepository/alina/NewSite/images/logo-small3.png") no-repeat;
     float: left;
-    height: 80px;
-    margin: 0 0 0 -294px;
+    height: 122px;
+    margin-left: -297px;
     overflow: hidden;
     position: relative;
     text-indent: -9999px;
@@ -247,7 +247,7 @@ input::-moz-placeholder {
     margin: 9px -25px 0 0;
 }
 #header .search-form input[type="submit"] {
-    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll 0 -4px;
+    background: rgba(0, 0, 0, 0) url("file:///D:/Alina_Nesterenko/GitHubRepository/alina/NewSite/images/sprite.png") no-repeat scroll 0 -4px;
     border: medium none;
     cursor: pointer;
     float: right;
@@ -290,7 +290,7 @@ element.style {
     display: none;
 }
 #header .search-form .btn-delete {
-    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll -80px -455px;
+    background: rgba(0, 0, 0, 0) url("file:///D:/Alina_Nesterenko/GitHubRepository/alina/NewSite/images/sprite.png") no-repeat scroll -80px -455px;
     height: 14px;
     overflow: hidden;
     position: absolute;
@@ -328,7 +328,7 @@ a {
 
 #header .contacts {
     float: right;
-    margin: -27px -262px 0 58px;
+    margin: 0px -262px 0 58px;
     position: relative;
 }
 
@@ -608,7 +608,7 @@ form, fieldset {
     width: 100%;
 }
 .subscription-form input[type="submit"] {
-    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll -200px -43px;
+    background: rgba(0, 0, 0, 0) url("images/sprite.png") no-repeat scroll -200px -43px;
     border: medium none;
     cursor: pointer;
     float: right;
@@ -649,13 +649,6 @@ input::-moz-placeholder {
 #footer-share a.fb_share {
     background-position: -31px 279px;
 }
-#footer-share a {
-    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") repeat scroll 0 0;
-    display: inline-block;
-    height: 28px;
-    padding: 0 5px 0 0;
-    vertical-align: top;
-    width: 28px;
 }
 input, select, textarea, button, a, img {
     outline: medium none !important;
@@ -668,7 +661,7 @@ a {
     background-position: -34px 215px;
 }
 #footer-share a {
-    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("file:///D:/Alina_Nesterenko/GitHubRepository/alina/NewSite/images/sprite.png") repeat scroll 0 0;
     display: inline-block;
     height: 28px;
     padding: 0 5px 0 0;
@@ -689,14 +682,6 @@ a {
     background-position: -37px 247px;
 }
 
-#footer-share a {
-    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") repeat scroll 0 0;
-    display: inline-block;
-    height: 28px;
-    padding: 0 5px 0 0;
-    vertical-align: top;
-    width: 28px;
-}
 input, select, textarea, button, a, img {
     outline: medium none !important;
 }
@@ -707,3 +692,88 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#contentContainer {
+    width: 550px;
+    height: 350px;
+    border: 5px black solid;
+    overflow: hidden;
+}
+#wr {
+    width: 2200px;
+    position: relative;
+    left: 0px;
+	transition: left .9s ease-in-out;
+}
+.content {
+    float: left;
+    width: 550px;
+    height: 350px;
+    white-space: normal;
+    background-repeat: no-repeat;
+}
+#itemOne {
+    background-color: #ADFF2F;
+    background-image: url("http://www.kirupa.com/images/blueSquare.png");
+}
+#itemTwo {
+    background-color: #FF7F50;
+    background-image: url("http://www.kirupa.com/images/yellowSquare.png");
+}
+#itemThree {
+    background-color: #1E90FF;
+    background-image: url("http://www.kirupa.com/images/pinkSquare.png");
+}
+#itemFour {
+    background-color: #DC143C;
+    background-image: url("http://www.kirupa.com/images/graySquare.png");
+		
+}
+
+#navLinks {
+    text-align: center;
+    width: 550px;
+}
+    #navLinks ul {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        margin-top: 6px;
+    }
+        #navLinks ul li {
+            float: left;
+            text-align: center;
+            margin: 10px;
+            list-style: none;
+            cursor: pointer;
+            background-color: #CCCCCC;
+            padding: 5px;
+            border-radius: 50%;
+            border: black 5px solid;
+        }
+            #navLinks ul li:hover {
+                background-color: #FFFF00;
+            }
+            #navLinks ul li.active {
+                background-color: #333333;
+                color: #FFFFFF;
+                outline-width: 7px;
+            }
+                #navLinks ul li.active:hover {
+                    background-color: #484848;
+                    color: #FFFFFF;
+                }
