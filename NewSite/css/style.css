@@ -154,8 +154,9 @@ body {
 .logo {
     background: url("../images/logo-title.png") no-repeat;	
     float: left;
-    height: 122px;
+    height: 70px;
     margin-left: -277px;
+	margin-top: -18px;
     overflow: hidden;
     position: relative;
     text-indent: -9999px;
@@ -166,12 +167,11 @@ body {
 }
 #header .search-form {
 	opacity:1;
-    background: #4db8c8 none repeat scroll 0 0;
+    background: #1ba4b8 none repeat scroll 0 0;
     float: left;
     height: 34px;
     position: relative;
-    width: 93%;
-	margin-top:30px;
+    width: 93%;	
 }
 #header .search-form:hover {
 	opacity:0.8;
@@ -332,7 +332,7 @@ a {
 
 #header .contacts {
     float: right;
-    margin: 21px -262px 0 58px;
+    margin: 0 -262px 0 58px;
     position: relative;
 }
 
@@ -797,5 +797,60 @@ opacity:1;
 	background: #029ab1;
 	height: 40px;
 	margin-top:-41px;
-	margin-top:-41px;
+	
+}
+
+
+/*             ВХОД                */
+
+#input-email-pass{
+	position:relative;
+	background: #f9fcfd;
+	height:195px;
+}
+
+#little-block{
+	background: #029ab1;
+	height: 40px;
+	margin: 90px 0 0 457px;
+	width: 40%;
+}
+
+#block-auth p{
+	margin-left:265px;
+	padding:5px;
+}
+#auth_login{	
+    margin:16px 0 0 -32px;
+    padding: 11px;
+    width: 100%;
+    border: 1px solid #029ab1;
+	font-size:16px;
+}
+#auth_login:hover{
+	background: #fcfdfe;
+	cursor: auto;	
+}
+
+#auth_pass{	
+margin-top: 20px;
+    margin-left: -32px;
+    padding: 11px;
+    width: 100%;
+    border: 1px solid #029ab1;
+	font-size:16px;
+}
+#auth_pass:hover{
+	background: #fcfdfe;
+	cursor: auto;	
+}
+
+#LogIn{
+	height: 40px;
+    float: right;
+    margin: 20px 8px 0px 0px;
+    width: 120px;
+    background-color: #029ab1;
+    color: #fff;
+    font-size: 16px;	
 }

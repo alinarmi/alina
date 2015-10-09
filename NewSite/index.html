@@ -194,6 +194,27 @@ function changePosition(link) {
 <div id="block"> 
 </div>
 
+
+<!-- -----------------------------------------  -->
+
+
+<div id="block-auth">
+	<div id="little-block">
+	<p>Вход</p>
+	<form method="post">		
+		<ul id="input-email-pass">						
+			<li><input type="email" id="auth_login" placeholder="E-mail" /></li>
+			<li><input type="password" id="auth_pass" placeholder="Пароль" /><span id="button-pass-show-hide" class="pass-show"></span></li>
+			<input type="submit" id="LogIn" name="LogIn" value="Вход" />
+
+		</ul>
+	</form>
+
+</div>
+</div>
+
+<!--    ------------------------------------------------------------------------------- -->
+
  </div>
  
  
@@ -253,7 +274,7 @@ function changePosition(link) {
 <form class="subscription-form" action="/personal/subscribe/">
 <fieldset id="field-subscription">
 <div class="text">
-<input type="text" value="Введите e-mail" name="sub_email" clear="clear">
+<input type="text" placeholder="Введите e-mail" name="sub_email" clear="clear">
 </div>
 <input type="submit" value="отправить">
 </fieldset>
