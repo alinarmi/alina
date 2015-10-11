@@ -1,4 +1,5 @@
-// запрашиваем DOM
+onReady(function(){
+	// запрашиваем DOM
 var links = document.querySelectorAll(".itemLinks");
 var wr = document.querySelector("#wr");
 
@@ -40,3 +41,4 @@ function changePosition(link) {
     var position = link.getAttribute("data-pos");
     wr.style.left = position;
 }
+});

@@ -11,7 +11,7 @@ html, body {
 }
 body {
     background: #eaeef1;
-    color: #fff;
+    
     font: 20px sans-serif;
     margin: 0;
     min-width: 600px;
@@ -172,6 +172,7 @@ body {
     height: 34px;
     position: relative;
     width: 93%;	
+	margin-top: -21px;
 }
 #header .search-form:hover {
 	opacity:0.8;
@@ -198,7 +199,7 @@ form, fieldset {
 }
 #header .search-form fieldset {
     overflow: hidden;
-    padding: 0 44px 0 0;
+    padding: 0 55px 0 0;
 }
 
 #header .search-form input[type="text"] {
@@ -712,14 +713,14 @@ a {
 
 
 #contentContainer {	
-    width: 1486px;
+    width: 1485px;
     height: 310px;
     overflow: hidden;
 }
 
 #wr {
 	opacity:0.93;
-    width: 5944px;
+    width: 5940px;
     position: relative;
     left: 0px;
 	transition: left .9s ease-in-out;
@@ -729,7 +730,7 @@ a {
 }
 .content {
     float: left;
-    width: 1486px;
+    width: 1485px;
     height: 310px;
     white-space: normal;
     background-repeat: no-repeat;
@@ -749,13 +750,11 @@ a {
 }
 
 #navLinks {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     text-align: center;
-    width: 1486px;
-	opacity:0.6;
+    width: 1485px;	
 }
-#navLinks:hover {
-opacity:1;
-}
+
     #navLinks ul {
         margin: 0px;
         padding: 0px;
@@ -795,7 +794,7 @@ opacity:1;
 
 #block{
 	background: #029ab1;
-	height: 40px;
+	height: 41px;
 	margin-top:-41px;
 	
 }
@@ -810,6 +809,7 @@ opacity:1;
 }
 
 #little-block{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19); 
 	background: #029ab1;
 	height: 40px;
 	margin: 90px 0 0 457px;
@@ -846,6 +846,7 @@ margin-top: 20px;
 }
 
 #LogIn{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19); 
 	height: 40px;
     float: right;
     margin: 20px 8px 0px 0px;
@@ -853,4 +854,748 @@ margin-top: 20px;
     background-color: #029ab1;
     color: #fff;
     font-size: 16px;	
+}
+#LogIn:hover{	
+	background-color: #018a9f;   	
+}
+
+
+
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+
+
+
+.product-list {
+    padding: 18px 0 20px;
+    margin: 0 0 15px;
+    list-style: none;
+    font: 11px/14px 'Helvetica Neue',Arial,Helvetica,sans-serif;
+    color: #454545;
+    border-bottom: 1px solid #e0e1e0;
+}
+
+.product-list>li {
+    overflow: hidden;
+    padding: 18px 33px 21px 233px;
+    position: relative;
+}
+.product-list > li .col-1 {
+    float: left;
+    width: 184px;
+    margin: 0 11px 0 -211px;
+    position: relative;
+}
+div {
+    display: block;
+}
+.product-list > li .img-holder {
+    min-height: 184px;
+    padding: 3px 0 0px;
+}
+.tp-img-wrap-120-120 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+.product-list > li .img-holder a {
+    margin: 0 auto;
+}
+.tp-img-wrap-120-120 a, .tp-a-img-wrap-120-120 {
+    display: block;
+    position: relative;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
+input, select, textarea, button, a, img {
+    outline: none !important;
+}
+.product-list .rating-list {
+    padding: 5px 0;
+}
+.product-list .rating-list, .similar-products .rating-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.product-list .rating-list li.active, .similar-products .rating-list li.active {
+    background-position: -102px -457px;
+}
+.product-list .rating-list li, .similar-products .rating-list li {
+    display: inline-block;
+    margin: 0 1px 0 2px;
+    background: url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat -102px -437px;
+    width: 13px;
+    height: 13px;
+}
+.product-list .rating-list li.active, .similar-products .rating-list li.active {
+    background-position: -102px -457px;
+}
+.product-list .rating-list li, .similar-products .rating-list li {
+    display: inline-block;
+    margin: 0 1px 0 2px;
+    background: url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat -102px -437px;
+    width: 13px;
+    height: 13px;
+}
+.product-list .rating-list li.active, .similar-products .rating-list li.active {
+    background-position: -102px -457px;
+}
+.product-list .rating-list li, .similar-products .rating-list li {
+    display: inline-block;
+    margin: 0 1px 0 2px;
+    background: url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat -102px -437px;
+    width: 13px;
+    height: 13px;
+}
+div.desc-rating, div.desc-rating span {
+    color: #D2D2D2;
+}
+div.desc-rating {
+    text-align: center;
+    font: 13px/18px 'PF Square Sans Proregular',Arial,Helvetica,sans-serif;
+}
+div.desc-rating a {
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
+input, select, textarea, button, a, img {
+    outline: none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+.product-section #tabset li a span, div.desc-rating span.active {
+    color: #008ac4;
+    font-family: 'PF Square Sans Probold',Arial,Helvetica,sans-serif;
+    display: inline-block;
+    margin: 0 0 -1px;
+    position: relative;
+}
+*+ html .product-section #tabset li a span, div.desc-rating span {
+    display: inline;
+}
+div.desc-rating, div.desc-rating span {
+    color: #D2D2D2;
+}
+div.desc-rating {
+    text-align: center;
+    font: 13px/18px 'PF Square Sans Proregular',Arial,Helvetica,sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-nav {
+    background: #c5cdc9 none repeat scroll 0 0;
+    margin: 0 -30px;
+    outline: medium none;
+    position: relative;
+    z-index: 37;
+}
+.main-nav > ul {
+    display: table;
+    outline: medium none;
+    padding: 0;
+}
+.main-nav > ul {
+    font: 13px/14px "PF Square Sans Medium",Arial,Helvetica,sans-serif;
+    list-style: outside none none;
+    margin: 0;
+    padding: 11px 0;
+    position: relative;
+    width: 100%;
+}
+.main-nav > ul > li > a {
+    display: block;
+    height: 38px;
+    margin: 0 0 0 -3px;
+    padding: 8px 0;
+    vertical-align: middle;
+}
+.main-nav > ul > li > a {
+    position: relative;
+    z-index: 5;
+}
+.main-nav > ul > li a {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 11px 0;
+    text-decoration: none;
+}
+.main-nav > ul > li > a {
+    display: block;
+    height: 38px;
+    margin: 0 0 0 -3px;
+    padding: 8px 0;
+    vertical-align: middle;
+}
+.main-nav > ul > li > a {
+    position: relative;
+    z-index: 5;
+}
+.main-nav > ul > li a {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 11px 0;
+    text-decoration: none;
+}
+.m-m-s {
+    display: inline-block;
+}
+.m-m-s {
+    display: inline-block;
+}
+.main-nav ul > li a span.holder span {
+    display: block;
+}
+.main-nav ul > li a span {
+    display: inline;
+}
+.main-nav > ul > li a div.vline {
+    background: transparent url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll -377px -1041px;
+    display: inline-block;
+    height: 38px;
+    position: absolute;
+    right: 0;
+    vertical-align: middle;
+    width: 4px;
+}
+
+.main-nav ul > li {
+    display: table-cell;
+    float: none;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    vertical-align: middle;
+}
+.main-nav > ul > li {
+    float: left;
+    margin: -11px 0;
+    padding: 0 30px;
+    text-align: center;
+}
+.main-nav ul > li + li a i.m-ico::before {
+    content: "B";
+}
+.main-nav ul > li a i.m-ico::before {
+    content: "A";
+}
+:root .main-nav ul > li a i {
+}
+.main-nav ul > li + li a i {
+    display: inline-block;
+    height: 38px;
+    margin: 0 0 0 6px;
+    text-indent: -1px;
+    vertical-align: middle;
+    width: 21px;
+}
+.main-nav ul > li a i {
+    text-shadow: 0 0 0 #009eca;
+}
+.main-nav ul > li a i {
+}
+.main-nav > ul > li a .holder {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: bold;
+    margin: 0 4px 0 10px;
+    vertical-align: middle;
+}
+.main-nav > ul > li a .holder {
+    display: inline-block;
+    text-align: left;
+}
+.main-nav ul > li a span {
+    display: inline;
+}.main-nav ul > li + li a span.holder span {
+    display: inline;
+}
+.main-nav ul > li a span.holder span {
+    display: block;
+}
+.main-nav ul > li a span {
+    display: inline;
+}
+.main-nav ul > li + li a span.holder span {
+    display: inline;
+}
+.main-nav ul > li a span.holder span {
+    display: block;
+}
+.main-nav ul > li a span {
+    display: inline;
+}
+.main-nav > ul > li a div.vline {
+    background: transparent url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sprite.png") no-repeat scroll -377px -1041px;
+    display: inline-block;
+    height: 38px;
+    position: absolute;
+    right: 0;
+    vertical-align: middle;
+    width: 4px;
+}
+.main-nav > ul > li {
+    text-align: center;
+}
+.main-nav .drop {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+    padding: 29px 0 30px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 53px;
+    visibility: hidden;
+    width: 100%;
+}
+.main-nav .drop.custom-img .holder {
+    min-height: 482px;
+}
+.main-nav .drop.noline .holder {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.main-nav .drop .holder {
+    background: rgba(0, 0, 0, 0) url("http://cdn.technopark.ru/bitrix/templates/TPL.MAIN/source/makeup/images/sep-grey.png") repeat-y scroll 69.6% 0;
+    min-height: 331px;
+    padding: 0 0 0 30px;
+}
+.main-nav .drop .col-1 {
+    float: left;
+    width: 69%;
+}
+.main-nav .drop .computers {
+    color: #333;
+    font: 26px "PF Square Sans Proregular",Arial,Helvetica,sans-serif;
+    margin: -2px 0 4px -1px;
+    min-height: 53px;
+    padding: 10px 10px 0 0;
+    position: relative;
+}
+.main-nav .box {
+    overflow: hidden;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, time {
+    display: block;
+}
+header, footer, article, section, hgroup, nav, figure, figcaption, aside {
+    display: block;
+}
+.main-nav .box .col {
+    float: left;
+    padding: 0 3% 0 0;
+    width: 30.3%;
+}
+.main-nav .box ul {
+    font: 14px/14px "PF Square Sans Proregular",Arial,Helvetica,sans-serif;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+ul, menu {
+    list-style-type: none;
+}
+.main-nav .box ul li {
+    border-bottom: 1px solid #e1e1e1;
+    display: list-item;
+    padding: 7px 0;
+}
+.main-nav ul > li {
+    display: table-cell;
+    float: none;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    vertical-align: middle;
+}
+.main-nav .box ul li a {
+    color: #616161;
+    display: inline;
+    padding: 0;
+}
+.main-nav > ul > li a {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 11px 0;
+    text-decoration: none;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+.main-nav .box ul li a {
+    color: #616161;
+    display: inline;
+    padding: 0;
+}
+.main-nav > ul > li a {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 11px 0;
+    text-decoration: none;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+.main-nav .box ul li a {
+    color: #616161;
+    display: inline;
+    padding: 0;
+}
+.main-nav > ul > li a {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 11px 0;
+    text-decoration: none;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+.main-nav .box ul li a {
+    color: #616161;
+    display: inline;
+    padding: 0;
+}
+.main-nav > ul > li a {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 11px 0;
+    text-decoration: none;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+.main-nav .box ul li a {
+    color: #616161;
+    display: inline;
+    padding: 0;
+}
+.main-nav > ul > li a {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 11px 0;
+    text-decoration: none;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+.main-nav .box ul li a {
+    color: #616161;
+    display: inline;
+    padding: 0;
+}
+.main-nav > ul > li a {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 11px 0;
+    text-decoration: none;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+.main-nav .box ul {
+    font: 14px/14px "PF Square Sans Proregular",Arial,Helvetica,sans-serif;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+ul, menu {
+    list-style-type: none;
+}
+.main-nav .box ul li {
+    border-bottom: 1px solid #e1e1e1;
+    display: list-item;
+    padding: 7px 0;
+}
+.main-nav ul > li {
+    display: table-cell;
+    float: none;
+    margin: 0;
+    outline: medium none;
+    padding: 0;
+    vertical-align: middle;
+}
+.main-nav .box ul li a {
+    color: #616161;
+    display: inline;
+    padding: 0;
+}
+.main-nav > ul > li a {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 11px 0;
+    text-decoration: none;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+.main-nav .box ul li a {
+    color: #616161;
+    display: inline;
+    padding: 0;
+}
+.main-nav > ul > li a {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 11px 0;
+    text-decoration: none;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+.main-nav .drop .col-2.promo.pos-bottom .col-2-head {
+    margin: 0;
+    position: relative;
+}
+.main-nav .drop .col-2.promo .col-2-head {
+    color: #3b3b3b;
+    font: 16px "PF Square Sans Proregular",Arial,Helvetica,sans-serif;
+    margin: 6px 0 5px;
+    min-height: auto;
+    position: relative;
+    text-align: center;
+}
+.main-nav .drop .col-2.pos-bottom .col-2-head {
+    left: 0;
+    margin: 0 0 5px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.main-nav .drop .col-2 .col-2-head {
+    color: #3b3b3b;
+    font: 16px "PF Square Sans Proregular",Arial,Helvetica,sans-serif;
+    margin: 6px 0 5px;
+    min-height: 40px;
+    position: relative;
+    text-align: center;
+}
+.main-nav .drop .col-2.promo.pos-bottom .col-2-head a {
+    color: #333;
+    height: auto;
+    overflow: hidden;
+}
+.main-nav .drop .col-2.pos-bottom .col-2-head a {
+    color: #333;
+    height: 42px;
+    overflow: hidden;
+}
+.main-nav .col-2.pos-bottom a {
+    padding: 0;
+}
+.main-nav > ul > li a {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 11px 0;
+    text-decoration: none;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+.main-nav .drop .col-2.pos-bottom figure {
+    margin-bottom: 0;
+    padding: 0;
+    position: relative;
+}
+.main-nav .drop figure {
+    margin: 0 0 16px;
+    padding: 0 45px;
+    text-align: center;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, time {
+    display: block;
+}
+figure {
+    margin: 0;
+    padding: 0;
+}
+header, footer, article, section, hgroup, nav, figure, figcaption, aside {
+    display: block;
+}
+.main-nav .col-2.pos-bottom a {
+    padding: 0;
+}
+.main-nav > ul > li a {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 11px 0;
+    text-decoration: none;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+element.style {
+    opacity: 1;
+}
+.main-nav .drop .col-2.pos-bottom figure img {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+.main-nav .drop figure img {
+    display: block;
+    margin: 0 auto 17px;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+img {
+    border-style: none;
+}
+element.style {
+    opacity: 1;
+}
+.main-nav .drop .col-2.pos-bottom figure img {
+    margin-bottom: 0;
+    margin-right: 0;
+}
+.main-nav .drop figure img {
+    display: block;
+    margin: 0 auto 17px;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+img {
+    border-style: none;
+}
+.main-nav .col-2.pos-bottom a {
+    padding: 0;
+}
+.main-nav > ul > li a {
+    color: #000;
+    cursor: pointer;
+    display: block;
+    overflow: hidden;
+    padding: 11px 0;
+    text-decoration: none;
+}
+.btn-blue, .noactive-btn-blue {
+    background: #008ac4 none repeat scroll 0 0;
+    color: #fff;
+    font: 15px "PF Square Sans Probold",Arial,Helvetica,sans-serif;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in 0s;
+}
+input, select, textarea, button, a, img {
+    outline: medium none !important;
+}
+a {
+    color: #008ac4;
+    text-decoration: underline;
+}
+#main {
+    min-height: 461px;
+}
+#main {
+    padding: 0 30px 30px;
 }
