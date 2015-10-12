@@ -21,6 +21,7 @@ body {
     margin: 0 auto;
     max-width: 1485px;
     position: relative;
+	color: #fff;
 }
 #header {
     background: #014d58;
@@ -56,15 +57,27 @@ body {
     color: #fff;
     text-decoration: none;
 }
+#city{
+	color: #fff;
+	float: left;
+	font: bold 20px sans-serif;
+    margin: 0 15px 0 0;
+    padding: 3px 15px 0 0;
+}
 .top-bar .region {
-    background: rgba(0, 0, 0, 0) url("../images/sprite.png") no-repeat scroll 100% -129px;
+    background: rgba(0, 0, 0, 0) url("../images/sprite.png") no-repeat scroll 100% -125px;
     color: #fff;
     float: left;
     font: bold 20px sans-serif;
-    margin: 0 15px 0 0;
+    margin: 1px 0 0 -22px;
     padding: 3px 15px 0 0;
     text-decoration: none;
 }
+
+.top-bar .region:hover {
+
+}
+
 .top-bar .user-options {
     float: right;
     font-family: sans-serif;
