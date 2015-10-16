@@ -35,7 +35,7 @@
 	
 		<p id="city-description">Ваш город -</p>
 		
-			<a href="#region-lightbox" id="region">Киев</a>    <!--      -->
+			<a href="#region-lightbox" id="region" document.getElementById("region-list").className = "Hello Dolly.";>Киев</a>    <!--      -->
 			
 			<ul id="region-list">
 				<li><a href="#">Харьков</a></li>
@@ -69,11 +69,7 @@
 	<div class="m-swich-off"></div>
 	
 	<section class="header-info">
-		<a class="logo" href="index.html">
-			a
-			<span>b</span>
-			c
-		</a>
+		<a class="logo" href="index.html"></a>
 		<noindex>
 			<div class="mini-m-h">
 				<i id="m-back"></i>
@@ -124,8 +120,35 @@
  
  <div id="content">
  
- <div id="main-menu">
- </div>
+ <!-- -------------------- MENU ------------------------ -->
+ 
+ 	<ul id="menu">
+    <li><a href="#">Выбор по бренду</a>
+		<div class="dropdown_1column">
+			<p>1 Column content</p>
+			<p>1 Column content</p>
+			<p>1 Column content</p>
+			<p>1 Column content</p>
+
+		</div>
+	</li>
+    <li><a href="#">Крупная бытовая</a>
+		<div class="dropdown_2columns">
+			<p>2 Columns content</p>
+			<p>2 Column content</p>
+			<p>2 Column content</p>
+			<p>2 Column content</p>
+		</div>
+	</li>
+    <li><a href="#">Мелкая бытовая</a></li>
+    <li><a href="#">Для кухни</a></li>
+    <li><a href="#">Климат</a></li>
+	<li><a href="#">Аудио Видео Фото</a></li>
+    <li><a href="#">Компьютеры Ноутбуки</a></li>
+    <li><a href="#">Телефоны Смартфоны</a></li>
+</ul>
+ 
+  <!-- -------------------- !MENU ------------------------ -->
  
  
 	<div id="contentContainer">
@@ -200,20 +223,7 @@ function changePosition(link) {
 <!-- -----------------------------------------  -->
 
 
-<div id="block-auth">
-	<div id="little-block">
-	<p>Вход</p>
-	<form method="post">		
-		<ul id="input-email-pass">						
-			<li><input type="email" id="auth_login" placeholder="E-mail" /></li>
-			<li><input type="password" id="auth_pass" placeholder="Пароль" /><span id="button-pass-show-hide" class="pass-show"></span></li>
-			<input type="submit" id="LogIn" name="LogIn" value="Вход" />
 
-		</ul>
-	</form>
-
-</div>
-</div>
 
 <!--    ------------------------------------------------------------------------------- -->
 

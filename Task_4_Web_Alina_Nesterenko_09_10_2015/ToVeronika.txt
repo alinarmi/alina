@@ -1,0 +1,71 @@
+#contentContainer {	
+    width: 1485px;
+    height: 310px;
+    overflow: hidden;
+}
+
+#wr {
+	opacity:0.93;
+    width: 5940px;
+    position: relative;
+    left: 0px;
+	transition: left .9s ease-in-out;
+}
+#wr:hover {
+	opacity:1;
+}
+.content {
+    float: left;
+    width: 1485px;
+    height: 310px;
+    white-space: normal;
+    background-repeat: no-repeat;
+}
+#itemOne {   
+    background-image: url("../images/img1.png");
+}
+#itemTwo {    
+    background-image: url("../images/img2.png");
+}
+#itemThree {    
+    background-image: url("../images/img3.png");
+}
+#itemFour {    
+    background-image: url("../images/img4.png");
+		
+}
+
+#navLinks {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
+    width: 1485px;	
+}
+
+    #navLinks ul {
+        margin: 0px;
+        padding: 0px;
+        display: inline-block;
+        margin-top: 6px;
+    }
+        #navLinks ul li {
+            float: left;
+            text-align: center;
+            margin: 10px;
+            list-style: none;
+            cursor: pointer;
+            background-color: #fff;
+            padding: 5px;
+            border-radius: 50%;
+        }
+            #navLinks ul li:hover {
+                background-color: #FFFF00;				
+            }
+            #navLinks ul li.active {
+                background-color: #333333;
+                color: #FFFFFF;
+                outline-width: 7px;
+            }
+                #navLinks ul li.active:hover {
+                    background-color: #484848;
+                    color: #FFFFFF;
+                }
