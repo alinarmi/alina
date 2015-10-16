@@ -82,8 +82,7 @@
 			</div>
 			<form class="search-form" action="/search/">
 				<fieldset>
-
-					<input id="search" class="input-autocomplte" type="text" clear="clear" name="q" placeholder="Поиск" >
+					<input id="search" class="input-autocomplte" type="text" autocomplete="off" x-webkit-speech="x-webkit-speech" clear="clear" name="q" value="Поиск" default-value="Поиск">
 					<input class="buttSearchSend" type="submit" value="search">
 					<a class="btnSearchClose btn-delete" href="#" style="display: none;">удалить</a>
 				</fieldset>
@@ -197,24 +196,27 @@ function changePosition(link) {
 </div>
 
 
-
 <!-- -----------------------------------------  -->
 
+<div id="about">
+<pre>
+<p> Интернет-магазин ABC Company – крупнейший магазин электроники и бытовой техники в Украине. Мы предоставляем качественные товары и сервис. 
+Наша философия — делать жизнь людей комфортнее, помогать им идти в ногу со временем, следить за новинками в цифровом мире.
 
-<div id="block-auth">
-	<div id="little-block">
-	<p>Вход</p>
-	<form method="post">		
-		<ul id="input-email-pass">						
-			<li><input type="email" id="auth_login" placeholder="E-mail" /></li>
-			<li><input type="password" id="auth_pass" placeholder="Пароль" /><span id="button-pass-show-hide" class="pass-show"></span></li>
-			<input type="submit" id="LogIn" name="LogIn" value="Вход" />
+Наша цель — достичь бескомпромиссного качества. А как известно, качество - в деталях. 
+ABC Company является официальным дилером известных мировых брендов. Именно у нас Вы можете приобрести действительно качественные товары.
 
-		</ul>
-	</form>
 
+</p>
 </div>
-</div>
+
+<style>
+#about{
+	color:#000;
+	font-size: 16px;
+}
+</style>
+
 
 <!--    ------------------------------------------------------------------------------- -->
 
@@ -226,7 +228,7 @@ function changePosition(link) {
 
  
  
-  
+ 
 	<footer id="footer">
 	
 
@@ -295,11 +297,8 @@ function changePosition(link) {
 
 
 	</footer>
-<div id="copyright">
-	<p>© 2015 Alina Nesterenko</p>
-</div>
-</div>
 
+</div>
 
 </body>
 </html>

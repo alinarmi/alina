@@ -57,14 +57,14 @@ body {
     color: #fff;
     text-decoration: none;
 }
-#city{
+#city-description{
 	color: #fff;
 	float: left;
 	font: bold 20px sans-serif;
     margin: 0 15px 0 0;
     padding: 3px 15px 0 0;
 }
-.top-bar .region {
+#region {
     background: rgba(0, 0, 0, 0) url("../images/sprite.png") no-repeat scroll 100% -125px;
     color: #fff;
     float: left;
@@ -73,7 +73,18 @@ body {
     padding: 3px 15px 0 0;
     text-decoration: none;
 }
-
+#region-list{
+	margin: 32px -102px 0px;
+	float:left;
+	display:none;
+}
+#region-list li a {
+    
+    color: #fff;    
+    font: bold 20px sans-serif;
+    
+    text-decoration: none;
+}
 .top-bar .region:hover {
 
 }
@@ -110,9 +121,7 @@ body {
     overflow: hidden;
     vertical-align: middle;
 }
-.top-bar .user-options li > a .small-name {
-    display: none;
-}
+
 .top-bar .user-options li.cart {
     margin: -12px -19px -11px 0;
     padding: 0;
@@ -181,6 +190,7 @@ body {
 #header .search-form {
 	opacity:1;
     background: #1ba4b8 none repeat scroll 0 0;
+	
     float: left;
     height: 34px;
     position: relative;
@@ -1001,7 +1011,7 @@ div.desc-rating, div.desc-rating span {
 }
 div.desc-rating {
     text-align: center;
-    font: 13px/18px 'PF Square Sans Proregular',Arial,Helvetica,sans-serif;
+    font: 13px/18px 'PF Square Sans Proregregular',Arial,Helvetica,sans-serif;
 }
 
 
@@ -1611,4 +1621,21 @@ a {
 }
 #main {
     padding: 0 30px 30px;
+}
+
+
+#copyright{
+	background: #014d58;
+	color: #80b5bd;
+    width: 100%;
+    height: 41px;
+    margin-top: -20px;
+    padding-top: 1px;
+    text-align: center;
+    font: 16px sans-serif;
+}
+
+#city-list li{
+	position: relative;
+	
 }
